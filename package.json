@@ -4,7 +4,7 @@
   "description": "API for Society Sheep",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts",
+    "start": "nodemon",
     "build": "tsc",
     "test": "npm run test"
   },
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@types/koa": "^2.11.0",
     "@types/koa-router": "^7.4.0",
-    "@types/pino": "^5.15.4"
+    "@types/pino": "^5.15.4",
+    "nodemon": "^2.0.2"
   }
 }
