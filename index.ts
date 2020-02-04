@@ -1,11 +1,16 @@
 import Koa from "koa";
 import pino from "pino";
 
-const app = new Koa();
+import routes from "./routes";
+
 const logger = pino({
   name: "society-sheep-api",
   level: "debug"
 });
+const app = new Koa();
+
+app.use(routes.routes());
+app.use(routes.allowedMethods());
 
 app.listen(3000);
 logger.info("Application running on port 3000");
