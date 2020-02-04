@@ -1,0 +1,31 @@
+{
+  "name": "societysheep-api",
+  "version": "1.0.0",
+  "description": "API for Society Sheep",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminlai/societysheep-api.git"
+  },
+  "author": "benjaminlai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminlai/societysheep-api/issues"
+  },
+  "homepage": "https://github.com/benjaminlai/societysheep-api#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.6",
+    "pino": "^5.16.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/koa-router": "^7.4.0",
+    "@types/pino": "^5.15.4"
+  }
+}
