@@ -4,7 +4,7 @@ import pino from "pino";
 import routes from "./routes";
 
 const logger = pino({
-  name: "society-sheep-api",
+  name: "koa-sandbox",
   level: "debug"
 });
 const app = new Koa();

@@ -1,7 +1,7 @@
 {
-  "name": "societysheep-api",
+  "name": "koa-sandbox",
   "version": "1.0.0",
-  "description": "API for Society Sheep",
+  "description": "KOA Sandbox",
   "main": "index.ts",
   "scripts": {
     "start": "nodemon",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benjaminlai/societysheep-api.git"
+    "url": "git+https://github.com/benjaminlai/koa-sandbox.git"
   },
   "author": "benjaminlai",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/benjaminlai/societysheep-api/issues"
+    "url": "https://github.com/benjaminlai/koa-sandbox/issues"
   },
-  "homepage": "https://github.com/benjaminlai/societysheep-api#readme",
+  "homepage": "https://github.com/benjaminlai/koa-sandbox#readme",
   "dependencies": {
     "koa": "^2.11.0",
     "koa-router": "^8.0.6",

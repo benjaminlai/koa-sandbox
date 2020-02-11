@@ -1,3 +1,3 @@
-## Society Sheep API
+## KOA Sandbox
 
 Api Yo
